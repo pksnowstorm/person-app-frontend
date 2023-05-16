@@ -35,8 +35,8 @@ const Show = (props) => {
   }
 
   const handleDelete = () => {
-    props.deletePeople(person._id)
-    navigate('/')
+    props.deletePeople(person._id);
+    navigate('/');
   }
 
   const loaded = () => {
